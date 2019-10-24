@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+	padding-top: 3.5rem;
+}
+
+/*custom style: Jumbotron */
+
+.jumbotron {
+	background-image: url(../images/jumbotron.jpg);
+	background-position: 50% 34%;
+	background-repeat: no-repeat;
+}
+
+.display-3 {
+	color: #FFFFFF;
+	text-shadow: 2px 2px #404040;
+}
