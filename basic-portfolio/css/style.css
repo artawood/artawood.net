@@ -1,0 +1,240 @@
+/* CSS Document */
+
+/* Table of Contents ====================
+    1.0 Global Styles
+    2.0 Nav Bar
+    3.0 Container
+    4.0 Portfolio
+    5.0 Contact Form
+    6.0 Footer
+    7.0 CSS Animation
+======================================== */
+
+/* 1.0 Global Styles =================== */
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    display: block;
+}
+
+section {
+    width: 100%;
+    background-color: #EFEFEF;
+    height: 100vh;
+    margin-top: -100px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a, p, label, input, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 2.0 Nav Bar ====================== */
+
+.navbar {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px #cccccc;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} /* sticky nav */
+
+.header-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.left-nav {
+    float: left;
+    background-color: #4aaaa5;
+    height: 75px;
+}
+
+.nav-brand {
+    margin: 25px 0px 25px 25px;
+}
+
+.logo {
+    color: #FFFFFF;
+    margin: 50px 25px 25px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.right-nav {
+    float: right;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px;
+}
+
+/* 3.0 Container =============================== */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.sub-container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px 0px #cccccc;
+    position: absolute;
+    width: 960px;
+    top: 150px;
+}
+
+.page-header, .content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-header {
+    height: 75px;
+    font-size: 24px;
+    border-bottom: 2px solid #D7D7D7;
+}
+
+.page-header>h1 {
+    color: #4aaaa5;
+}
+
+.content>p {
+    line-height: 30px;
+}
+
+/* 4.0 Portfolio Page ================================== */
+
+.portfolio-section {
+    height: 1200px;
+} /* overrides global style for 'section' tag */
+
+.portfolio {
+    height: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 90%;
+    height: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.col-4 {
+    float: left;
+    width: 33.33%
+}
+
+.portfolio-thumbnail {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.portfolio-title {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+}
+
+.portfolio-title>p {
+    color: #FFFFFF;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* 5.0 Contact Form ================================ */
+
+form {
+    margin: 20px 0px 10px 0px;
+}
+
+label {
+    margin: 10px 0px;
+}
+
+input, textarea {
+    width: 98%;
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+textarea {
+    border-color: #D7D7D7;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+/* 6.0 Footer ================================== */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+/* 7.0 CSS Animation =========================== */
+
+.glide-up {
+    /* glide from bottom */
+    animation: glide-up 0.7s ease-in;
+}
+
+@keyframes glide-up {
+    0%      {top: 300px; opacity: 0;}
+    100%    {top: 150px; opacity: 1.0;}
+}
+

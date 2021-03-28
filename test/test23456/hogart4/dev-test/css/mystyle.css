@@ -1,0 +1,116 @@
+/* CSS Document for Art's style*/
+
+/* Notes */
+
+/* Breakpoints
+xs: 576px
+sm: 768px
+lg: 992px
+xlg: 1200px 
+===================================================*/
+
+.hero-unit-space-exploration .hero-image {
+    background-image: url(../images/final-frontier_medium.jpg);
+}
+
+@media only screen and (max-width: 1068px) {
+    .hero-unit-space-exploration .hero-image {
+        width: 1068px;
+        height: 712px;
+        background-size: 1068px 712px;
+        background-repeat: no-repeat;
+        background-position: -155px;
+        background-image: url(../images/final-frontier_medium.jpg);
+    }
+    .hero-unit-moon-exploration .hero-image {
+        background-size: cover;
+        background-position: -155px;
+    }
+    h2 {
+        font-size: 64px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .hero-description {
+        width: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+    .hero-unit-moon-exploration .hero-image {
+        background-size: cover;
+        background-position: -180px;
+    }
+    .hero-unit-space-exploration .hero-image {
+        width: 1440px;
+        height: 960px;
+        background-size: 1440px 960px;
+        background-repeat: no-repeat;
+        background-position: -155px;
+        background-image: url(../images/final-frontier_large.jpg);
+    }
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+.masonry {
+    column-count: 2;
+    column-gap: 1.5em;
+}
+}
+@media only screen and (max-width: 767px) {
+    .masonry {
+        column-count: 1;
+    }
+}
+.col-lg-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.hero-description {
+    margin: 0 auto;
+    width: 300px;
+}
+
+/* properties for the timeline */
+.timeline-item {
+    width: 500px;
+}
+
+.timeline-1 {
+    order: 1;
+    height: 600px;
+}
+.timeline-2 {
+    order: 2;
+    height: 950px;
+}
+.timeline-3 {
+    order: 3;
+    height: 900px;
+}
+.timeline-4 {
+    order: 4;
+}
+.timeline-5 {
+    order: 5;
+}
+.timeline-6 {
+    order: 6;
+}
+
+.card {
+    display: flex;
+    flex: 1 1 auto;
+    width: 33.3%;
+    margin: 20px;
+    border-radius: 10px;
+}
+

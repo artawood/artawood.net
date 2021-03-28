@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>WORKCOMP INSURANCE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet"></link>
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #fff; box-shadow: 0px 0px 5px 0px grey;">
+        <a class="navbar-brand" href="#">WORKCOMP INSURANCE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#commercial">INSTANT QUOTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CUSTOMIZE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GET COVERED</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+              <p><a class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">GET FREE QUOTE</a></p>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Intake Modals
+      ================================================== -->
+    <!-- Intake One Modal -->
+    <form id="contact-form" method="post" action="https://perlas.radiusbob.com/leads/import" role="form">
+      <div class="modal fade" id="intakeOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">When is your next renewal?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <p><a class="btn btn-secondary close" data-toggle="modal" data-target="#intakeTwo" data-dismiss="modal" aria-label="Close"><span style="color:#FFF;">I need it now &gt;</span></a></p>
+              <br>
+              <p><a class="btn btn-secondary close" data-toggle="modal" data-target="#intakeTwo" data-dismiss="modal" aria-label="Close"><span style="color:#FFF;">Very soon!&gt;</span></a></p>
+              <br>
+              <p><a class="btn btn-secondary close" data-toggle="modal" data-target="#intakeTwo" data-dismiss="modal" aria-label="Close"><span style="color:#FFF;">Just shopping around &gt;</span></a></p>
+            </div>
+            <div class="modal-footer">
+              <p>Or <strong>call now to speak to an agent </strong>xxx-xxx-xxxx</p>
+              <br>
+              <p><a class="btn btn-lg btn-primary" style="color: #fff;">GET FREE QUOTE</a></p>
+            </div>
+          </div>
+        </div>
+      </div><!-- Intake One Modal -->
+      <!-- Intake Two Modal --> 
+      <div class="modal fade" id="intakeTwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">About how much is your total payroll?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <span id="ex6CurrentSliderValLabel">$ <span id="ex6SliderVal">0</span></span>
+              <br>
+              <input id="ex6" type="text" name="coverage amount" data-slider-min="0" data-slider-max="1000000" data-slider-step="10000" data-slider-value="10000"/>
+            </div>
+            <div class="modal-footer">
+              <p><a class="btn btn-lg btn-primary close" data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#intakeThree" style="color: #fff;">Continue &gt;</a></p>
+            </div>
+          </div>
+        </div>
+      </div><!-- Intake Two Modal -->
+      <!-- Intake Three Modal --> 
+      <div class="modal fade" id="intakeThree" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">What state is your facility in?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">States</label>
+                      </div>
+                      <select class="custom-select" id="inputGroupSelect01" name="state">
+                        <option selected>- Select -</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                        
+                      </select>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                  <p>Or <strong>call now to speak to an agent </strong>xxx-xxx-xxxx</p>
+                  <br>
+                  <p><a class="btn btn-lg btn-primary close" data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#intakeFour" style="color: #fff;">Continue &gt;</a></p>
+                </div>
+            </div>
+          </div>
+        </div><!-- Intake Two Modal -->
+        <!-- Get Free Quote Modal -->
+        <div class="modal fade" id="intakeFour" tabindex="-1" role="dialog" aria-labelledby="intakeFour" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Get FREE Quote!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <div class="form-group">
+                    <label for="inputFirstName">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" name="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputLastName">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" name="last_name">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputFirstName">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputFirstName">Phone</label>
+                    <input type="tel" class="form-control" id="inputPhone" placeholder="(123)  546-7890" name="phone">
+                  </div>
+                </div>
+              <div class="modal-footer">
+                <p>Or <strong>call now to speak to an agent </strong>xxx-xxx-xxxx</p>
+                <br>
+                <button type="submit" class="btn btn-primary">Get Free Quote</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- Get Free Quote Modal -->
+      </form>  
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="images/healthcare-workers.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>DIAPERS</h1>
+                <p>You're going to need this when you get a huge Workers Comp Lawsuit</p>
+                <p><a class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal">GET FREE QUOTE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="images/compensation.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>FOOT IN THE DOOR</h1>
+                <p>You get one shoe for free, and the other one when you sign up with us!</p>
+                <p><a class="btn btn-lg btn-primary" href="callto:18183149760" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="images/insurance.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>TRASHCAN</h1>
+                <p>You're throwing money away</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">SEE HOW YOU CAN SAVE</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Blurp Section =======================================================-->
+
+      <div class="container text-center" style="padding-bottom: 5%;">
+          <h1>COMPANIES YOU CAN TRUST</h1>
+          <p>Logos of partner companies here</p>
+          <div class="row">
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+              <div class="col-lg-2">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> 
+              </div>
+          </div>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                      <img class="product" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="300">
+                  <h3>Commercial Property and Liability</h3>
+                  <p><a class="btn btn-secondary" href="#commercial" role="button">Learn More &raquo;</a></p>
+                </div><!-- /.col-lg-4 Product 1-->
+                <div class="col-lg-6 text-center">
+                    <img class="product" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="300">
+                  <h3>EPLI (Employment Practices Liability Insurance)</h3>
+                  <p><a class="btn btn-secondary" href="#employment" role="button">Learn More &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /. 1st row -->
+              <div class="row">
+                  <div class="col-lg-6 text-center">
+                      <img class="product" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="300">
+                      <h3>Group Health</h3>
+                      <p><a class="btn btn-secondary" href="#grouphealth" role="button">Learn More &raquo;</a></p>
+                    </div><!-- /.col-lg-4 Product 1-->
+                    <div class="col-lg-6 text-center">
+                        <img class="product" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="300">
+                      <h3>Cyber Liability</h3>
+                      <p><a class="btn btn-secondary" href="#cyber" role="button">Learn More &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+              </div> <!-- /. 1st row -->
+        </div>
+        <!-- Three columns of text below the carousel -->
+        
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div id="commercial" class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Commercial Property and Liability</h2>
+            <p class="lead">Whether you own a building structure, equipment, inventory, stock, or furniture, you have commercial property. How will you replace your property in the event of a fire, theft, or severe storm? A catastrophic loss could close down your business temporarily or indefinitely.</p>
+            <p>At Perlas Insurace Services, we will customize a commercial property insurance policy to your specifications, either as a standalone policy or as part of a package.</p>
+            <p>Most commercial property policies can include coverage for:</p>
+            <p> &bullet; Structure (building)</p>
+            <p> &bullet; Furniture</p>
+            <p> &bullet; Equipment</p>
+            <p> &bullet; Lost inventory</p>
+            <p> &bullet; Landscaping</p>
+            <p> &bullet; Signs</p>
+            <p> &bullet; Loss of income</p>
+            <p> &bullet; And more...</p>
+            <p>Call Now today at <a>xxx-xxx-xxxx</a> today and we will help you protect your investment. Or get your instant <strong>FREE</strong> commercial property insurance quote here.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="images/your-medical-team.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="employment" class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">EPLI (Employment Practices Liability Insurance)</h2>
+            <p class="lead">EPLI claims can come from current employees, former employees, or people who come in for an interview. Claims can take numerous forms, such as:</p>
+            <p> &bullet; Discrimination</p>
+            <p> &bullet; Emotional distress</p>
+            <p> &bullet; Invasion of privacy</p>
+            <p> &bullet; Negligent hiring or promotion</p>
+            <p> &bullet; Sexual harassment</p>
+            <p> &bullet; Wage disputes</p>
+            <p> &bullet; And more...</p>
+            <p>Let the business insurance agents at Perlas Insurace Services craft an EPLI policy that helps truly protect your California business from these types of claims. Contact us today by calling <a>xxx-xxx-xxxx</a> or filling out quote online form.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="images/online.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="grouphealth" class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Group Health</h2>
+            <p class="lead">Whether you have a large or small business, you require group health insurance for your dependable work force. With competitive rates, Perlas Insurace Services can offer you quality service while customizing a plan to specifically meet your needs. When considering a job offer, two major factors come into play during an employee’s decision: salary and benefits. Because of this, a group health insurance package from us will help you to recruit the best team members possible.</p>
+            <p>A standard group health insurance policy will often provide coverage for the following:</p>
+            <p> &bullet; Employer</p>
+            <p> &bullet; Employees</p>
+            <p> &bullet; Dependents of Employees</p>
+            <p>We take pride in offering reliable and affordable group health insurance to businesses throughout California. We will work with premium carriers who understand the needs of employers and employees alike. So don’t hesitate, contact us today to learn more about this coverage and receive a <strong>FREE</strong> quote.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="images/successful1.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="cyber" class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Cyber Liability</h2>
+            <p class="lead">If you use e-mail, have networked PCs, a Web site, or private customer data in your computer systems, you have a lot to lose. You may have firewalls, virus protection, anti-spam systems, and prudent procedures to protect passwords and prevent employees from downloading dangerous material. But these measures are not foolproof. When they fail cyber insurance kicks in.</p>
+            <p>A standard group health insurance policy will often provide coverage for the following:</p>
+            <p> &bullet; Employer</p>
+            <p> &bullet; Employees</p>
+            <p> &bullet; Dependents of Employees</p>
+            <p>We take pride in offering reliable and affordable group health insurance to businesses throughout California. We will work with premium carriers who understand the needs of employers and employees alike. So don’t hesitate, contact us today to learn more about this coverage and receive a <strong>FREE</strong> quote.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="images/successful1.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider"> <!-- /END THE FEATURETTES -->
+
+        <div>
+            <h2 class="featurette-heading">Cyber Liability</h2>
+            <p class="lead">If you use e-mail, have networked PCs, a Web site, or private customer data in your computer systems, you have a lot to lose. You may have firewalls, virus protection, anti-spam systems, and prudent procedures to protect passwords and prevent employees from downloading dangerous material. But these measures are not foolproof. When they fail cyber insurance kicks in.</p>
+            <p>A standard group health insurance policy will often provide coverage for the following:</p>
+            <p> &bullet; Employer</p>
+            <p> &bullet; Employees</p>
+            <p> &bullet; Dependents of Employees</p>
+            <p>We take pride in offering reliable and affordable group health insurance to businesses throughout California. We will work with premium carriers who understand the needs of employers and employees alike. So don’t hesitate, contact us today to learn more about this coverage and receive a <strong>FREE</strong> quote.</p>
+          </div>
+        </div>
+
+
+
+       
+
+        <!-- LAST CALL TO ACTION SECTION ======================================-->
+        
+        <div class="container text-center">
+            <h1>WE ARE COMPETITIVE</h1>
+            <p>Compare our worker's compensation insurance rate with others!</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">COMPARE RATES</a></p>
+
+        </div>
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Kohlabs Group, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/mailer.js"></script>
+    <script type="text/javascript">
+      $(window).on('load',function() {
+        $('#intakeOne').modal('show');
+      });
+
+      $("#ex6").slider();
+      $("#ex6").on("slide", function(slideEvt) {
+	        $("#ex6SliderVal").text(slideEvt.value);
+      });
+    </script>
+    <script src="js/menu_nav.js"></script>
+  </body>
+</html>
